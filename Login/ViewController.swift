@@ -40,7 +40,7 @@ class ViewController: UIViewController {
         if sender == forgotPasswordButton {
             segue.destination.navigationItem.title = "Forgot Password"
         }
-        else if sender == forgotUsernameButton {segue.destination.navigationItem.title = "Forgot Username"
+        else if sender == forgotUsernameButton {segue.destination.navigationItem.title = "Sign Up"
         }
         else {
             segue.destination.navigationItem.title = usernameTextField.text
