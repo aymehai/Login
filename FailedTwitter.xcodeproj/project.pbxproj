@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E185CF3720E5630E00D35EF1 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E185CF3720E5630E00D35EF1 /* FailedTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FailedTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185CF3A20E5630E00D35EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E185CF3C20E5630E00D35EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E185CF3F20E5630E00D35EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E185CF4120E5630F00D35EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E185CF4420E5630F00D35EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E185CF4620E5630F00D35EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E185CF4B20E5630F00D35EF1 /* LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E185CF4B20E5630F00D35EF1 /* FailedTwitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FailedTwitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185CF4F20E5630F00D35EF1 /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		E185CF5120E5630F00D35EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E185CF5620E5630F00D35EF1 /* LoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E185CF5620E5630F00D35EF1 /* FailedTwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FailedTwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E185CF5A20E5630F00D35EF1 /* LoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITests.swift; sourceTree = "<group>"; };
 		E185CF5C20E5630F00D35EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 		E185CF2E20E5630E00D35EF1 = {
 			isa = PBXGroup;
 			children = (
-				E185CF3920E5630E00D35EF1 /* Login */,
+				E185CF3920E5630E00D35EF1 /* FailedTwitter */,
 				E185CF4E20E5630F00D35EF1 /* LoginTests */,
 				E185CF5920E5630F00D35EF1 /* LoginUITests */,
 				E185CF3820E5630E00D35EF1 /* Products */,
@@ -87,14 +87,14 @@
 		E185CF3820E5630E00D35EF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E185CF3720E5630E00D35EF1 /* Login.app */,
-				E185CF4B20E5630F00D35EF1 /* LoginTests.xctest */,
-				E185CF5620E5630F00D35EF1 /* LoginUITests.xctest */,
+				E185CF3720E5630E00D35EF1 /* FailedTwitter.app */,
+				E185CF4B20E5630F00D35EF1 /* FailedTwitterTests.xctest */,
+				E185CF5620E5630F00D35EF1 /* FailedTwitterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E185CF3920E5630E00D35EF1 /* Login */ = {
+		E185CF3920E5630E00D35EF1 /* FailedTwitter */ = {
 			isa = PBXGroup;
 			children = (
 				E185CF3A20E5630E00D35EF1 /* AppDelegate.swift */,
@@ -104,7 +104,7 @@
 				E185CF4320E5630F00D35EF1 /* LaunchScreen.storyboard */,
 				E185CF4620E5630F00D35EF1 /* Info.plist */,
 			);
-			path = Login;
+			path = FailedTwitter;
 			sourceTree = "<group>";
 		};
 		E185CF4E20E5630F00D35EF1 /* LoginTests */ = {
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E185CF3620E5630E00D35EF1 /* Login */ = {
+		E185CF3620E5630E00D35EF1 /* FailedTwitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E185CF5F20E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildConfigurationList = E185CF5F20E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitter" */;
 			buildPhases = (
 				E185CF3320E5630E00D35EF1 /* Sources */,
 				E185CF3420E5630E00D35EF1 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Login;
+			name = FailedTwitter;
 			productName = Login;
-			productReference = E185CF3720E5630E00D35EF1 /* Login.app */;
+			productReference = E185CF3720E5630E00D35EF1 /* FailedTwitter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E185CF4A20E5630F00D35EF1 /* LoginTests */ = {
+		E185CF4A20E5630F00D35EF1 /* FailedTwitterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E185CF6220E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "LoginTests" */;
+			buildConfigurationList = E185CF6220E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitterTests" */;
 			buildPhases = (
 				E185CF4720E5630F00D35EF1 /* Sources */,
 				E185CF4820E5630F00D35EF1 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				E185CF4D20E5630F00D35EF1 /* PBXTargetDependency */,
 			);
-			name = LoginTests;
+			name = FailedTwitterTests;
 			productName = LoginTests;
-			productReference = E185CF4B20E5630F00D35EF1 /* LoginTests.xctest */;
+			productReference = E185CF4B20E5630F00D35EF1 /* FailedTwitterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E185CF5520E5630F00D35EF1 /* LoginUITests */ = {
+		E185CF5520E5630F00D35EF1 /* FailedTwitterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E185CF6520E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "LoginUITests" */;
+			buildConfigurationList = E185CF6520E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitterUITests" */;
 			buildPhases = (
 				E185CF5220E5630F00D35EF1 /* Sources */,
 				E185CF5320E5630F00D35EF1 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				E185CF5820E5630F00D35EF1 /* PBXTargetDependency */,
 			);
-			name = LoginUITests;
+			name = FailedTwitterUITests;
 			productName = LoginUITests;
-			productReference = E185CF5620E5630F00D35EF1 /* LoginUITests.xctest */;
+			productReference = E185CF5620E5630F00D35EF1 /* FailedTwitterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E185CF3220E5630E00D35EF1 /* Build configuration list for PBXProject "Login" */;
+			buildConfigurationList = E185CF3220E5630E00D35EF1 /* Build configuration list for PBXProject "FailedTwitter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E185CF3620E5630E00D35EF1 /* Login */,
-				E185CF4A20E5630F00D35EF1 /* LoginTests */,
-				E185CF5520E5630F00D35EF1 /* LoginUITests */,
+				E185CF3620E5630E00D35EF1 /* FailedTwitter */,
+				E185CF4A20E5630F00D35EF1 /* FailedTwitterTests */,
+				E185CF5520E5630F00D35EF1 /* FailedTwitterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		E185CF4D20E5630F00D35EF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E185CF3620E5630E00D35EF1 /* Login */;
+			target = E185CF3620E5630E00D35EF1 /* FailedTwitter */;
 			targetProxy = E185CF4C20E5630F00D35EF1 /* PBXContainerItemProxy */;
 		};
 		E185CF5820E5630F00D35EF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E185CF3620E5630E00D35EF1 /* Login */;
+			target = E185CF3620E5630E00D35EF1 /* FailedTwitter */;
 			targetProxy = E185CF5720E5630F00D35EF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login.app/Login";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FailedTwitter.app/FailedTwitter";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login.app/Login";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FailedTwitter.app/FailedTwitter";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E185CF3220E5630E00D35EF1 /* Build configuration list for PBXProject "Login" */ = {
+		E185CF3220E5630E00D35EF1 /* Build configuration list for PBXProject "FailedTwitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E185CF5D20E5630F00D35EF1 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E185CF5F20E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "Login" */ = {
+		E185CF5F20E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E185CF6020E5630F00D35EF1 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E185CF6220E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "LoginTests" */ = {
+		E185CF6220E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E185CF6320E5630F00D35EF1 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E185CF6520E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "LoginUITests" */ = {
+		E185CF6520E5630F00D35EF1 /* Build configuration list for PBXNativeTarget "FailedTwitterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E185CF6620E5630F00D35EF1 /* Debug */,
